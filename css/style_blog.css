@@ -1,0 +1,122 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/Raleway-Medium.tff);
+}
+
+body {
+    font-family: myFirstFont;
+}
+
+
+/* #tow_column {
+    margin-top: 10%;
+} */
+
+#banner {
+    background: url("/images/banner.jpg") no-repeat;
+}
+
+.jumbotron {
+    border-radius: 0;
+}
+
+.l_nav_top ul li a {
+    /* color: #fff; */
+}
+
+.card {
+    border: none;
+}
+
+.card-border {
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-top-left-radius: 5%;
+}
+
+.date {
+    background-color: #b0b0b0;
+    border-top-left-radius: 25%;
+}
+
+.date_content {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.person {
+    background-color: #f27c66;
+    font-family: myFirstFont;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_person {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.comment {
+    background-color: #f9cb8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_comment {
+    color: #fff;
+}
+
+.img_content {
+    height: 405px;
+    background-color: #e1e1e1;
+}
+
+.content-title {
+    display: flex;
+    height: 55px;
+}
+
+.item {
+    width: 55px;
+}
+
+.item2 {
+    flex-grow: 1;
+}
+
+.btn_border {
+    border-top-left-radius: 30%;
+}
+
+
+/* line */
+
+hr {
+    display: inline;
+    font-size: 2px;
+    padding: 0 46px 0 0;
+    border: transparent;
+}
+
+button#set_btn {
+    font-family: "Raleway";
+    font-size: 15px;
+    width: 140px;
+    color: #f27c66;
+    background: transparent;
+    border-color: #f27c66;
+    border-radius: 10px 0;
+    cursor: pointer;
+}
+
+.card-deck {
+    margin-bottom: 20px;
+}
+
+.text-right {
+    float: right;
+    color: #f27c66;
+}

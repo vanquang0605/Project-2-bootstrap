@@ -1,0 +1,23 @@
+@media(max-width: 992px){
+	.caption{max-width: 450px;}
+}
+
+@media (max-width: 576px){
+	.caption h2,
+	.caption p,
+	.wrap_icon_os
+	{
+		display: none;
+	}
+	#static .row{flex-direction: column;}
+	.content_ft{
+		margin-bottom: 20px;
+	}
+	.navbar-light .navbar-nav .nav-link:after{content: none;}
+	#beadcrumb a:before{right: -7px;top:14px;}
+	#beadcrumb{height: 150px;}
+	#beadcrumb a{font-size: 13px;}
+	address{margin-bottom: 0;}
+	.social{float: left;margin-bottom: 20px;}
+}
+
